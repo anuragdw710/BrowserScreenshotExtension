@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Screenshot",
+  "description": "tack screenshot",
+  "version": "0.0.1",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "index.html",
+    "default_title": "Screenshot"
+  },
+  "permissions": [
+    "activeTab",
+    "<all_urls>"
+  ]
+}
